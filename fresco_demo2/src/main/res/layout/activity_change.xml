@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.com.fresco_demo2.ChangeActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_fresco_resize"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        fresco:placeholderImage="@drawable/lucky_go" />
+
+    <Button
+        android:id="@+id/bt_fresco_resize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="修内存中改图片大小" />
+
+    <Button
+        android:id="@+id/bt_fresco_rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="旋转图片" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.com.fresco_demo2.LoadListenerActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/listener_my_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        fresco:placeholderImage="@mipmap/ic_launcher" />
+
+</LinearLayout>
